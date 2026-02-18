@@ -10,7 +10,7 @@ export const initDashboardAnimations = (container) => {
     // Intro Timeline
           
     const tl = gsap.timeline({
-      defaults: { ease: "power3.out" }
+      defaults: { ease: "power1.out" }
     });
 
     tl.from(".hero-section", {
